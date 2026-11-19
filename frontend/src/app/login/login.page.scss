@@ -86,3 +86,9 @@ ion-input.has-focus::part(label) {
   height: 48px;
   --border-radius: 10px; 
 }
+
+@media (prefers-color-scheme: dark) {
+  ion-card-header p {
+    color: #cbd5ce;
+  }
+}

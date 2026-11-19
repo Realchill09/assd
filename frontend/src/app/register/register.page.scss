@@ -106,3 +106,10 @@ ion-input.has-focus::part(label) {
   font-weight: 700;
   --color: #2563eb;
 }
+
+@media (prefers-color-scheme: dark) {
+  ion-card-header p,
+  .login-link p {
+    color: #cbd5ce;
+  }
+}

@@ -173,6 +173,31 @@ ion-item {
   padding: 20px 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .loading-container,
+  .empty-comments,
+  ion-card-header p {
+    color: #cbd5ce;
+  }
+
+  .recipe-heading p {
+    color: #526052;
+  }
+
+  .comment-item {
+    background: #252b26;
+  }
+
+  .comment-header strong {
+    color: #f2f4f2;
+  }
+
+  .comment-item p,
+  .comment-item small {
+    color: #cbd5ce;
+  }
+}
+
 /* Mobile */
 @media (max-width: 576px) {
   .recipe-container {

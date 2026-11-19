@@ -135,3 +135,16 @@ ion-item ion-label h2 {
     font-size: 22px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  ion-card-title,
+  ion-item ion-label h2,
+  .logout-card h2 {
+    color: #f2f4f2;
+  }
+
+  ion-item ion-label p,
+  .logout-card p {
+    color: #cbd5ce;
+  }
+}

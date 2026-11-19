@@ -81,7 +81,7 @@
 }
 
 .section-heading h2 {
-  color: #263b2b;
+  color: var(--ion-text-color);
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 5px;
@@ -105,7 +105,7 @@
 }
 
 .form-card ion-card-title {
-  color: #263b2b;
+  color: var(--ion-text-color);
   font-size: 21px;
   font-weight: 700;
 }
@@ -117,7 +117,7 @@
 }
 
 .form-card ion-label {
-  color: #526552;
+  color: var(--ion-text-color);
   font-weight: 600;
 }
 
@@ -279,7 +279,7 @@
   align-items: center;
   justify-content: center;
   padding: 45px 15px;
-  color: #718071;
+  color: var(--ion-text-color);
 }
 
 .loading-container ion-spinner {
@@ -301,7 +301,7 @@
 }
 
 .empty-state p {
-  color: #849084;
+  color: #526052;
   font-size: 14px;
 }
 

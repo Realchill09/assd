@@ -181,3 +181,22 @@ ion-item {
     padding: 5px 15px calc(25px + var(--ion-safe-area-bottom, 0px));
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .menu-heading h2,
+  .recipe-section h2,
+  .empty-section h3,
+  .recipe-card ion-card-title {
+    color: #f2f4f2;
+  }
+
+  .menu-heading p,
+  .empty-section,
+  .recipe-card p {
+    color: #cbd5ce;
+  }
+
+  ion-item:not(.selected-category) {
+    --color: #f2f4f2;
+  }
+}

@@ -9,3 +9,9 @@
   color: #777;
   text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  .empty-collection {
+    color: #cbd5ce;
+  }
+}
